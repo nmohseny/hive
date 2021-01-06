@@ -76,7 +76,7 @@ for name, number in numbers.items():
     try:    
         client.messages.create(to=number, 
                         from_="+12515773195", 
-                        body="Yo " + name + "your" + time_inp " reservation at the hive" +  location + "is open " + url)
+                        body="Yo " + name + "your" + time_inp + " reservation at the hive" +  location + "is open " + url)
         print('sms sent successfully')
     except:
         print('could not send sms')
