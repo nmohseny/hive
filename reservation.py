@@ -56,7 +56,7 @@ def find_availability():
     for line in zip(lines, lines):
         line_text = " ".join(line)
 
-        if time_inp in line_text and 'Available Select' in line_text:
+        if time_inp in line_text and not 'Full.' in line_text:
             ## If input date string is found and it is Available then return true
             result = True
         else:
