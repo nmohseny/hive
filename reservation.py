@@ -7,7 +7,8 @@ import time
 
 numbers = {
     #'Lenore': '+16043172568',
-    'Nima': '+17787727966'
+    'Nima': '+17787727966',
+    'Logan': '+6135395467'
 }
 
 time_inp = input('input time in the following format "7 AM to 9 AM": ')
